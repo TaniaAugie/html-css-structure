@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #23424a;
+}
+
+.wrapper {
+  color: white;
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+button.mbtn {
+  padding: 0.6em 2em;
+  border-radius: 30px;
+  color: black;
+  background-color: aqua;
+  font-size: 1em;
+  border: 0;
+  cursor: pointer;
+  margin: 1em;
+}
