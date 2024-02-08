@@ -33,6 +33,16 @@ body {
 
 h1 {
   font-size: 3rem;
+  color: bisque;
+}
+
+h2 {
+  color: #87629a;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 .container {
@@ -82,4 +92,19 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.hero__text p {
+  color: bisque;
+}
+
+footer {
+  background-color: #136c72;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
