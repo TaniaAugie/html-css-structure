@@ -19,3 +19,13 @@ h1,
 p {
   border: 5px solid orange;
 }
+
+.box2 {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.box2-child {
+  background-color: pink;
+  padding: 100px;
+}
