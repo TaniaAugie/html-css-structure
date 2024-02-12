@@ -23,16 +23,34 @@ h2 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 36px;
+  margin-bottom: 26px;
+}
+p {
+  font-size: 16px;
+}
+
 .container {
   width: 90%;
   max-width: 1128px;
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  gap: 30px;
+}
+
 header {
   background-color: var(--ivory);
   padding: 150px 0;
   text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .hero {
@@ -52,4 +70,47 @@ h1 {
   font-size: 60px;
   color: var(--brown);
   line-height: 1.1;
+}
+
+.section1 {
+  padding: 50px 0;
+}
+
+.section1 h2 {
+  color: var(--brown);
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.section2,
+.section3 {
+  padding: 50px 0;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.col-img {
+  flex-basis: 48%;
+}
+
+.section2 {
+  background-color: var(--charcoal);
+}
+
+.section3 {
+  background-color: var(--brown);
+}
+
+h2,
+h3 {
+  color: var(--ivory);
+}
+
+.section2 p {
+  color: var(--ivory);
+}
+.section3 p {
+  color: var(--ivory);
 }
