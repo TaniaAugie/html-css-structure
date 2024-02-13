@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald&display=swap") * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --charcoal: #2e323f;
+  --navy: #3b4050;
+  --grey: #6f737f;
+  --white: #ffffff;
+  --stone: #a59678;
+}
+
+.container {
+  max-width: 1200px;
+}
