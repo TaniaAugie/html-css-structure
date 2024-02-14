@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald&display=swap") * {
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +14,174 @@
   --stone: #a59678;
 }
 
-.container {
-  max-width: 1200px;
+.hero {
+  background-color: var(--navy);
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 90px;
+}
+.hero p {
+  color: var(--stone);
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  background-color: var(--stone);
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+header {
+  background-color: var(--charcoal);
+  padding: 0.5em 0;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  color: var(--stone);
+  text-align: center;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  color: var(--stone);
+  margin-left: 50px;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: var(--white);
+  margin-left: 50px;
+}
+
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: var(--white);
+  text-align: center;
+}
+
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-size: 21px;
+  color: var(--stone);
+}
+
+.nav__list {
+  margin-left: 20px;
+  padding: 5px 5px;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.nav__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: var(--stone);
+  color: var(--white);
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: var(--grey);
+  margin: 20px;
+}
+
+.row p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  color: var(--grey);
+  margin-left: 50px;
+}
+
+.box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: var(--grey);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+.row {
+  display: flex;
+}
+
+img {
+  width: 70%;
+  align-self: flex-start;
+  padding: 50px;
+}
+
+.para1 {
+  background-color: var(--navy);
+  padding: 20px;
+}
+
+.para2 {
+  background-color: var(--navy);
+  padding: 20px;
+}
+
+.para3 {
+  background-color: var(--navy);
+  padding: 20px;
+}
+
+.footer {
+  background-color: var(--navy);
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--grey);
+}
+li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--grey);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-text {
+  color: var(--white);
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  margin-right: 650px;
+  margin-left: 30px;
 }
