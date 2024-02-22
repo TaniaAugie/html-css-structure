@@ -162,6 +162,11 @@ img {
   background-color: var(--navy);
 }
 
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
